@@ -1,0 +1,16 @@
+venv/
+env/
+.env
+
+__pycache__/
+*.pyc
+
+*.csv
+mitbih_train.csv
+mitbih_test.csv
+
+*.log
+*.png
+*.jpg
+temp_*
+

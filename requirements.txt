@@ -1,0 +1,9 @@
+aiogram>=3.0
+numpy
+pandas
+opencv-python
+scipy
+tensorflow
+scikit-learn
+matplotlib
+pillow
