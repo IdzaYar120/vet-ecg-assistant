@@ -13,7 +13,7 @@ from tensorflow.keras.models import load_model
 from scipy.signal import find_peaks, resample
 import matplotlib.pyplot as plt
 
-API_TOKEN = '8309832107:AAHJzS8lD9ym4qwUWl8ZJo6kFD97g1Rjo6Q' 
+API_TOKEN = 'YOUR_TOKEN_HERE' 
 MODEL_PATH = 'ecg_model.h5'
 CLASSES_PATH = 'classes.pkl'
 
