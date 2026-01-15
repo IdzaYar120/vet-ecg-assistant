@@ -1,16 +1,23 @@
+# Віртуальне оточення (ОБОВ'ЯЗКОВО)
 venv/
+.venv/
 env/
-.env
 
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
 
-*.csv
+# Середовище розробки
+.vscode/
+.idea/
+.cursor/
+
+# Секретні дані (ОБОВ'ЯЗКОВО)
+.env
+token.txt
+
 mitbih_train.csv
-mitbih_test.csv
-
-*.log
-*.png
-*.jpg
-temp_*
-
+# Великі файли (якщо вони >100MB, розкоментуйте рядки нижче)
+# *.h5
+# *.csv
+# *.pkl
